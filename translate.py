@@ -5,4 +5,4 @@ def translate(phrase):
             traslation = translation + "d"
         else:
             translation = translation + letter
-            
+        return translation
