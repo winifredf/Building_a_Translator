@@ -5,6 +5,6 @@ def translate(phrase):
             traslation = translation + "d"
         else:
             translation = translation + letter
-        return translation
+    return translation
     
 print(translate(input("Enter a phrase:")))
